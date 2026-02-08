@@ -1,0 +1,21 @@
+/* src/components/CreateUserForm.css */
+.success {
+  color: green;
+  font-weight: bold;
+}
+
+.error {
+  color: red;
+  font-weight: bold;
+}
+
+.home-container {
+  padding: 30px 20px 20px 20px; /* Reduces top padding to 30px */
+  text-align: center;
+  font-family: Arial, sans-serif;
+  background-image: url('../assets/circles-background-dark-tones_60389-166.avif');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}

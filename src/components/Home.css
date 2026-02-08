@@ -1,0 +1,54 @@
+
+
+.home-container {
+  padding: 20px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  background-image: url('../assets/circles-background-dark-tones_60389-166.avif');
+  background-size: cover;  
+  background-position: center;  
+  background-repeat: no-repeat;  
+  min-height: 100vh; 
+}
+
+.home-container h1 {
+  font-size: 2.5rem;
+  color: white; 
+  margin-top: 50px;  
+}
+
+.home-container p {
+  color: white; 
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.home-container .button-container {
+  margin-top: 20px;
+}
+
+.button-container .button {
+  margin: 5px 0;  
+  padding: 16px 8px;  
+  background-color: #4CAF50;  
+  color: white;
+  border: none;
+  font-size: 1rem;  
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+  
+  width: auto;
+}
+
+.button-container .button:hover {
+  background-color: #45a049; 
+}
+
+.button-container {
+  gap: 20px;
+  display: flex;
+  margin-top: 20px;
+  padding: 12px 24px;
+  justify-content: center;
+}

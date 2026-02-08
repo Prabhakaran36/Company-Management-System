@@ -1,0 +1,81 @@
+/* src/components/CompanyList.css */
+.companies-container {
+  padding: 20px;
+  background-color: #f9f9f9; /* Light background for better contrast */
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+}
+
+.company-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Responsive grid layout */
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.company-card {
+  background-color: #fff; /* White background for each card */
+  padding: 20px;
+  border-radius: 8px; /* Rounded corners for cards */
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Soft shadow for cards */
+  transition: transform 0.3s ease-in-out; /* Smooth hover effect */
+}
+
+.company-card:hover {
+  transform: translateY(-5px); /* Slight lift effect on hover */
+}
+
+.company-card h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: #333; /* Dark color for the company name */
+}
+
+.company-card p {
+  font-size: 1rem;
+  color: #666; /* Lighter color for address and other details */
+}
+
+.company-card .location {
+  font-size: 0.9rem;
+  color: #999; /* Lighter color for coordinates */
+}
+
+.no-companies {
+  font-size: 1.2rem;
+  color: #888;
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* Style for the 'Add Company' button */
+.add-company-button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+  display: inline-block;
+  margin: 20px 0;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+.add-company-button:hover {
+  background-color: #45a049;
+}
+
+
+.home-container {
+  padding: 30px 20px 20px 20px; /* Reduces top padding to 30px */
+  text-align: center;
+  font-family: Arial, sans-serif;
+  background-image: url('../assets/circles-background-dark-tones_60389-166.avif');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
