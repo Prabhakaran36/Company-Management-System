@@ -14,17 +14,17 @@ function CompanyList() {
   }, []);
 
   const fetchCompanies = async () => {
-    try {
-      const response = await getCompanies();  
-      console.log(response); 
-      setCompanies(response);  
-      setLoading(false);
-    } catch (error) {
-      setError("Failed to fetch companies.");
-      setLoading(false);
-      console.error(error);
-    }
-  };
+  try {
+    const response = await getCompanies();
+
+    setCompanies(response.data.companies); // ✅ correct
+    setLoading(false);
+  } catch (error) {
+    setError("Failed to fetch companies.");
+    setLoading(false);
+    console.error(error);
+  }
+};
 
   if (loading) return <div>Loading...</div>;
   if (error) return <div>{error}</div>;

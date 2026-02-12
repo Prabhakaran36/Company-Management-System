@@ -11,7 +11,7 @@ function Home() {
       
      
       <div className="button-container">
-        <Link to="/companies">
+        <Link to="/getAllCompany">
           <button className="button">View Companies</button>
         </Link>
         

@@ -27,15 +27,16 @@ function Companies() {
   }, []);
 
   const loadCompanies = async () => {
-    try {
-      const res = await getCompanies();
-      setCompanies(res || []);
-    } catch {
-      setError('Error fetching companies');
-    } finally {
-      setLoading(false);
-    }
-  };
+  try {
+    const res = await getCompanies();
+    setCompanies(res.companies || []);
+  } catch {
+    setError('Error fetching companies');
+  } finally {
+    setLoading(false);
+  }
+};
+
 
   const handleSearch = async () => {
     if (!searchCompanyId) return alert('Enter company ID');
