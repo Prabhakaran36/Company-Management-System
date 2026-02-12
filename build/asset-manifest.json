@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/static/css/main.814f1130.css",
+    "main.js": "/static/js/main.c070c89d.js",
+    "static/js/453.f81e0e1a.chunk.js": "/static/js/453.f81e0e1a.chunk.js",
+    "static/media/cover-banner-working-desk-with-gadget-top-view-table-working-free-space-text_33771-1303.avif": "/static/media/cover-banner-working-desk-with-gadget-top-view-table-working-free-space-text_33771-1303.2d93369536a9f86b7b04.avif",
+    "static/media/black-background-with-keypad-keys-top-black-background_270292-1168.avif": "/static/media/black-background-with-keypad-keys-top-black-background_270292-1168.b9c86baa970c159165de.avif",
+    "static/media/circles-background-dark-tones_60389-166.avif": "/static/media/circles-background-dark-tones_60389-166.b71880680901baa3b8bb.avif",
+    "index.html": "/index.html",
+    "main.814f1130.css.map": "/static/css/main.814f1130.css.map",
+    "main.c070c89d.js.map": "/static/js/main.c070c89d.js.map",
+    "453.f81e0e1a.chunk.js.map": "/static/js/453.f81e0e1a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.814f1130.css",
+    "static/js/main.c070c89d.js"
+  ]
+}
